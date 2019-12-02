@@ -8,7 +8,7 @@
         isNormalUser = true;
         uid = 1000;
         extraGroups = [ "wheel" "networkmanager" "audio" ];
-        hashedPassword = "$6$GbJr2QzfSAuc46W7$f7qdWQ/IRF7KxBI876SKeoaJmUWiwTIsvxxKWRkykH9zLQLsKCk65ErWnchXU9Egp7ikJ6KI9KF263Mp/xhsl1";
+        hashedPassword = "$6$FeAbRdIK$b3t7Ecyvq7z9ZLa9pOq4ed94yiXB0inFq/WiJmQlVVPeOkEep5WjpVWBY//pNu6KLnOy.1vPA5Z5kpDApaC8G/";
       };
       fs = {
         isNormalUser = true;
@@ -16,7 +16,7 @@
         password = "fs";
         extraGroups = [ "networkmanager" "audio" ];
       };
-      root.hashedPassword = "$6$6P6PlR84pEMGb0fK$1g4AoI5V6TNLg9iiuHA7/VzahwUBnsUrWF3JSlev7uSBIFCbmYMmQyxOg7l.jnTZmDLuUl8l9Un7a8dIzJf5e.";
+      root.hashedPassword = "$6$FeAbRdIK$b3t7Ecyvq7z9ZLa9pOq4ed94yiXB0inFq/WiJmQlVVPeOkEep5WjpVWBY//pNu6KLnOy.1vPA5Z5kpDApaC8G/";
     };
   };
   security.sudo.wheelNeedsPassword = false;
