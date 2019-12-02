@@ -13,6 +13,7 @@
     subversion
     # Media: Audio
     vlc
+    ultrastardx
     # Media: Documents
     libreoffice
     pdfpc
