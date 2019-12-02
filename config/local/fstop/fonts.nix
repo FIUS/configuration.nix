@@ -96,7 +96,7 @@
     quattrocento
     quattrocento-sans
     raleway
-    ricty
+#    ricty
     rictydiminished-with-firacode
     roboto
     roboto-mono
