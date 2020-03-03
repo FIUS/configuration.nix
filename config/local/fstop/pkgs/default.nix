@@ -32,6 +32,7 @@
     # Social Media
     tdesktop
     # Systems tools
+    ntfs3g
     file
     htop
     nmap
