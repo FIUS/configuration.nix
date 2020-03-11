@@ -64,7 +64,7 @@
     libre-caslon
     libre-franklin
     lmodern
-    lobster-two
+    #lobster-two
     marathi-cursive
     material-icons
     medio
@@ -78,7 +78,7 @@
     mro-unicode
     myrica
     nafees
-    nerdfonts
+    #nerdfonts
     noto-fonts
     oldsindhi
     oldstandard

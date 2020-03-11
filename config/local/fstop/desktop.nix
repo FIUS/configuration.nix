@@ -4,7 +4,7 @@
   services.xserver = {
     enable = true;
     layout = "de,eu";
-#    libinput.enable = true;
+    libinput.enable = false;
     synaptics.enable = true;
     displayManager.sddm.enable = true;
     desktopManager.plasma5.enable = true;
