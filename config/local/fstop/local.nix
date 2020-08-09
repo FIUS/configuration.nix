@@ -12,5 +12,6 @@
     ./shells.nix
     ./users.nix
     ./video.nix
+    ./hardware.nix
   ];
 }
