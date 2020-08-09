@@ -8,6 +8,23 @@
         inherit pkgs;
       };
     };
+    myPython = (with pkgs; nur.repos.neumantm.pythonWithPipenv.override {
+        myPythonDerivation = python37; 
+        myPythonPackages = pp: with pp; [
+          jedi
+          mypy
+          pylint
+          rope
+          #  nose
+          black
+          # pylama
+          # flake8
+          # autopep8
+          pytest 
+          pycodestyle
+          pyaudio
+        ];
+    });
   };
 
   programs.mtr.enable = true;
