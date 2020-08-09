@@ -1,9 +1,17 @@
 { pkgs, ... }:
 
 {
+  nixpkgs.config = {
+    allowUnfree = true;
+    packageOverrides = super: let self = super.pkgs; in {
+      nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+        inherit pkgs;
+      };
+    };
+  };
+
   programs.mtr.enable = true;
 
-  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # Browsers
     chromium
@@ -31,6 +39,8 @@
     keepassxc
     # Social Media
     tdesktop
+    # Other
+    nur.repos.marzipankaiser.drinklist-cli
     # Systems tools
     ntfs3g
     file
