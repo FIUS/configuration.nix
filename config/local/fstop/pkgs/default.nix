@@ -58,7 +58,7 @@
     tdesktop
     # Other
     nur.repos.marzipankaiser.drinklist-cli
-    nur.repos.neumantm.prusa-slicer-2_3-alpha
+    nur.repos.fius.prusa-slicer-2_3-alpha
     # Systems tools
     ntfs3g
     file
